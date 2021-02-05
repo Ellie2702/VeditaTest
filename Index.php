@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <form method="POST" action="displayTable.php">
+    <form method="POST" action="CProducts.php">
         <div>
         <?php
             $query = 'select * from Products where BOOL_HIDE = 0 ORDER BY DATE_CREATE';
